@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
+    <listeners>
+
+    </listeners>
     <test verbose="2" preserve-order="true" name="/Users/sidhartha_kar/Documents/code/restapiautomation">
         <classes>
             <class name="booking.bookings">
@@ -8,6 +11,10 @@
                     <include name="get_allbooking"/>
                     <include name="create_booking"/>
                     <include name="booking_create"/>
+                </methods>
+            </class>
+            <class name="booking.create_booking">
+                <methods><include name="booking_create"/>
                 </methods>
             </class>
         </classes>
