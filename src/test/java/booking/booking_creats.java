@@ -11,7 +11,9 @@ public class booking_creats {
 
     public Response create_new_bookins(Map<String,Object> create_book_payload) {
        String endpoint = (String) base.getdatafromfile.get("qaendpoint");
-        Response response = rest_utilis.performpost(endpoint, create_book_payload, new HashMap<>(), "booking");
+       String basepath= (String) base.getdatafromfile.get("basepath");
+
+        Response response = rest_utilis.performpost(endpoint, create_book_payload, new HashMap<>(),basepath);
         return response;
     }
 

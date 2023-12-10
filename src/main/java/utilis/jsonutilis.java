@@ -19,5 +19,4 @@ public class jsonutilis {
         Map<String,Object> data= objmapper.readValue(new File(jsonpath), new TypeReference<>() {});
         return data;
     }
-
 }

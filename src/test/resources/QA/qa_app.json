@@ -1,3 +1,4 @@
 {
-  "qaendpoint" : "https://restful-booker.herokuapp.com/"
+  "qaendpoint" : "https://restful-booker.herokuapp.com/",
+  "basepath" : "booking"
 }

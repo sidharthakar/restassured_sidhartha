@@ -1,6 +1,7 @@
 package booking;
 
 import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.io.IOException;
@@ -14,6 +15,11 @@ public class create_booking extends booking_creats{
         Response response = create_new_bookins(booking_payload);
         Assert.assertEquals(response.statusCode(), 200);
         System.out.println(response.asString());
+
+    }
+
+    @Test
+    public void booking_happen(){
 
     }
 
