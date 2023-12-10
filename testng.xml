@@ -4,7 +4,7 @@
     <listeners>
 
     </listeners>
-    <test verbose="2" preserve-order="true" name="/Users/sidhartha_kar/Documents/code/restapiautomation">
+    <test verbose="2" preserve-order="true" name="./restapiautomation">
         <classes>
             <class name="booking.bookings">
                 <methods>
